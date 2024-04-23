@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    //Inventory Columns
+    <string name="row1Id">1</string>
+
+    //Button Names
+    <string name="increaseQuantity">+</string>
+    <string name="decreaseQuantity">-</string>
+    <string name="deleteItem">x</string>
+    <string name="addItem">Add Item</string>
+    <string name="setting">Settings</string>
+
+    //Setting Text
+    <string name="notificationMessage">Do you want to allow Inventory App to send you a notification when your item stock is empty?</string>
+    <string name="acceptButton">Accept</string>
+    <string name="denyButton">Deny</string>
+
+</resources>

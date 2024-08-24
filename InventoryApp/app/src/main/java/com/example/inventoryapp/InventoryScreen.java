@@ -57,8 +57,8 @@ public class InventoryScreen extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         String phoneNum = data.getStringExtra("keynumber");
         String accept = data.getStringExtra("keyaccept");
-        if (accept == "on") {                                                                       //NOTE: This is where the problem is, I can not get these variables to transfer
-            smsOn = true;                                                                           //      for Public use. See lines 102 & 107
+        if (accept == "on") {                                                                       //FIX: This is where the problem is, I can not get these variables to transfer
+            smsOn = true;                                                                           //for Public use. See lines 102 & 107
             phoneNumber = phoneNum;
         }
         Toast.makeText(this, "SMS Active for " + phoneNum,Toast.LENGTH_SHORT).show();
